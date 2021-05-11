@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Section 4 - Carousel</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-12 mt-3">
+				<div class="carousel slide" id="principal" data-ride="carousel">
+					
+					<ol class="carousel-indicators">
+						<li class="active" data-target="#principal" data-slide-to="0"></li>
+						<li data-target="#principal" data-slide-to="1"></li>
+						<li data-target="#principal" data-slide-to="2"></li>
+					</ol>
+
+					<div class="carousel-inner">
+						<div class="carousel-item text-center active">
+							<div class="carousel-caption d-block">
+								<h4>Imagen 1</h4>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+							</div>
+							<img src="./assets/img1.jpeg" alt="Carousel Image">
+						</div>
+						<div class="carousel-item text-center">
+							<div class="carousel-caption d-block">
+								<h4>Imagen 2</h4>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cumque maiores rem, dolores neque explicabo error vel harum corrupti et ipsam nobis qui autem accusantium odio quaerat eum sit hic.</p>
+							</div>
+							<img src="./assets/img2.jpeg" alt="Carousel Image">
+						</div>
+						<div class="carousel-item text-center">
+							<img src="./assets/img3.jpeg" alt="Carousel Image">
+						</div>
+					</div>
+
+					<a href="#principal" class="carousel-control-prev" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Anterior</span>
+					</a>
+
+					<a href="#principal" class="carousel-control-next" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Siguiente</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</body>
+</html>
